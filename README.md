@@ -3,4 +3,4 @@ Bundle of web items.
 
 
 # Live
-On [Github](https://florinpop17.github.io/web-items/index.html)
+On [Github](https://florinpop17.github.io/web-items/)
