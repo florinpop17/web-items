@@ -7,7 +7,7 @@
 
 .panel-m .panel-m-head {
   background-color: #999;
-  border: 5px solid #333;
+  border: 2px solid #333;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   padding: 10px 15px;
@@ -17,10 +17,9 @@
 }
 
 .panel-m .panel-m-body {
-  background-color: #999;
-  border: 5px solid #333;
+  border: 2px solid #333;
   border-top-width: 0;
-  font-weight: 100;
+  font-weight: 400;
   padding: 15px;
 }
 
@@ -29,7 +28,7 @@
 }
 
 .panel-m.sun-flower .panel-m-body {
-  background-color: #EACB4D;
+  color: #EACB4D;
 }
 
 .panel-m.sun-flower .panel-m-head, .panel-m.sun-flower .panel-m-body {
@@ -41,7 +40,7 @@
 }
 
 .panel-m.pumpkin .panel-m-body {
-  background-color: #E38B41;
+  color: #E38B41;
 }
 
 .panel-m.pumpkin .panel-m-head, .panel-m.pumpkin .panel-m-body {
@@ -53,7 +52,7 @@
 }
 
 .panel-m.pomegrenate .panel-m-body {
-  background-color: #E15F51;
+  color: #E15F51;
 }
 
 .panel-m.pomegrenate .panel-m-head, .panel-m.pomegrenate .panel-m-body {
@@ -65,7 +64,7 @@
 }
 
 .panel-m.belize .panel-m-body {
-  background-color: #4BA1DC;
+  color: #4BA1DC;
 }
 
 .panel-m.belize .panel-m-head, .panel-m.belize .panel-m-body {
@@ -77,7 +76,7 @@
 }
 
 .panel-m.emerald .panel-m-body {
-  background-color: #46CD7E;
+  color: #46CD7E;
 }
 
 .panel-m.emerald .panel-m-head, .panel-m.emerald .panel-m-body {
@@ -89,7 +88,7 @@
 }
 
 .panel-m.wisteria .panel-m-body {
-  background-color: #A369B5;
+  color: #A369B5;
 }
 
 .panel-m.wisteria .panel-m-head, .panel-m.wisteria .panel-m-body {
@@ -101,7 +100,7 @@
 }
 
 .panel-m.midnight .panel-m-body {
-  background-color: #455469;
+  color: #455469;
 }
 
 .panel-m.midnight .panel-m-head, .panel-m.midnight .panel-m-body {
