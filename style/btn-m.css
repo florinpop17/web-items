@@ -1,4 +1,6 @@
 .btn-m {
+    background: #757575;
+    border: 5px solid #555;
     color: white;
     cursor: pointer;
     font-size: 16px;
@@ -13,6 +15,7 @@
 }
 
 .btn-m:before {
+    background: #888;
     content: '';
     width: 100%;
     height: calc(100% - 5px);
