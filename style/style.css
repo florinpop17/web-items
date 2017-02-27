@@ -55,3 +55,16 @@ header h1{
     position: relative;
     z-index: 3;
 }
+
+.container h2 {
+    border-bottom: 2px solid #000;
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.container h3 {
+    font-size: 24px;
+    font-weight: 100;
+}
