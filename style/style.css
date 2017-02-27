@@ -3,3 +3,41 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    color: white;
+    background-image: url('https://images.unsplash.com/photo-1423589989400-cc0270157ed0');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 120px 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+header::after{
+    background-color: rgba(0, 0, 0, 0.3);
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+header h1{
+    border: 5px solid #fff;
+    display: inline-block;
+    position: relative;
+    padding: 10px 20px;
+    font-size: 68px;
+    text-transform: uppercase;
+    z-index: 2;
+}
