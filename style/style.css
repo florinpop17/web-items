@@ -87,6 +87,9 @@ header h1{
     margin-right: 5px;
 }
 
+.items > div {
+    margin-bottom: 15px;
+}
 
 /* Footer style */
 footer {
