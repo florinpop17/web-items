@@ -2,22 +2,9 @@
     color: white;
     cursor: pointer;
     font-size: 16px;
-    padding: 10px;
+    padding: 10px 15px;
     position: relative;
     overflow: hidden;
-    width: 150px;
-}
-
-.btn-big {
-    font-size: 20px;
-    padding: 15px;
-    width: 200px;
-}
-
-.btn-small {
-    font-size: 14px;
-    padding: 8px;
-    width: 120px;
 }
 
 .btn-m:before {
@@ -33,6 +20,8 @@
 .btn-m span{
     position: relative;
 }
+
+/* Colors */
 
 .btn-m.midnight {
     background: #384A60;
@@ -95,4 +84,35 @@
 
 .btn-m.wisteria:before {
     background: #A369B5;
+}
+
+/* Sizes */
+
+.btn-big {
+    font-size: 20px;
+    padding: 15px 25px;
+}
+
+.btn-medium{
+    font-size: 16px;
+    padding: 10px 15px;
+}
+
+.btn-small {
+    font-size: 14px;
+    padding: 7px 10px;
+}
+
+/* Styles */
+
+.btn-rect {
+    border-radius: 0;
+}
+
+.btn-rounded {
+    border-radius: 10px;
+}
+
+.btn-circle {
+    border-radius: 30px;
 }
