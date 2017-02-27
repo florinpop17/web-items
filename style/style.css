@@ -81,6 +81,20 @@ header h1{
     text-align: left;
 }
 
+/* Code color */
+
+pre .tag-style {
+    color: #3A92D1;
+}
+
+pre .class-style {
+    color: #DE4C3D;
+}
+
+pre .inner-style {
+    color: #9556A7 /*#31C36E /*#C65614;*/
+}
+
 /* Items style */
 
 .items button {
