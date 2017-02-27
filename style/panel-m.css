@@ -1,0 +1,132 @@
+.panel-m {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: white;
+  overflow: hidden;
+}
+
+.panel-m .panel-m-head {
+  background-color: #999;
+  border: 5px solid #333;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 10px 15px;
+  position: relative;
+  overflow: hidden;
+  font-size: 18px;
+}
+
+.panel-m .panel-m-head:before {
+  background-color: #333;
+  border-bottom-right-radius: 80%;
+  content: '';
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.panel-m .panel-m-head span {
+  position: relative;
+}
+
+.panel-m .panel-m-body {
+  background-color: #999;
+  border: 5px solid #333;
+  border-top-width: 0;
+  font-weight: 100;
+  padding: 15px;
+}
+
+.panel-m.sun-flower .panel-m-head {
+  background-color: #EBC316;
+}
+
+.panel-m.sun-flower .panel-m-head:before,
+.panel-m.sun-flower .panel-m-body {
+  background-color: #EACB4D;
+}
+
+.panel-m.sun-flower .panel-m-head, .panel-m.sun-flower .panel-m-body {
+  border-color: #DB9221;
+}
+
+.panel-m.pumpkin .panel-m-head {
+  background-color: #DB7B24;
+}
+
+.panel-m.pumpkin .panel-m-head:before,
+.panel-m.pumpkin .panel-m-body {
+  background-color: #E38B41;
+}
+
+.panel-m.pumpkin .panel-m-head, .panel-m.pumpkin .panel-m-body {
+  border-color: #C65614;
+}
+
+.panel-m.pomegrenate .panel-m-head {
+  background-color: #DE4C3D;
+}
+
+.panel-m.pomegrenate .panel-m-head:before,
+.panel-m.pomegrenate .panel-m-body {
+  background-color: #E15F51;
+}
+
+.panel-m.pomegrenate .panel-m-head, .panel-m.pomegrenate .panel-m-body {
+  border-color: #B43B32;
+}
+
+.panel-m.belize .panel-m-head {
+  background-color: #3A92D1;
+}
+
+.panel-m.belize .panel-m-head:before,
+.panel-m.belize .panel-m-body {
+  background-color: #4BA1DC;
+}
+
+.panel-m.belize .panel-m-head, .panel-m.belize .panel-m-body {
+  border-color: #2A7CAC;
+}
+
+.panel-m.emerald .panel-m-head {
+  background-color: #31C36E;
+}
+
+.panel-m.emerald .panel-m-head:before,
+.panel-m.emerald .panel-m-body {
+  background-color: #46CD7E;
+}
+
+.panel-m.emerald .panel-m-head, .panel-m.emerald .panel-m-body {
+  border-color: #2AA562;
+}
+
+.panel-m.wisteria .panel-m-head {
+  background-color: #9556A7;
+}
+
+.panel-m.wisteria .panel-m-head:before,
+.panel-m.wisteria .panel-m-body {
+  background-color: #A369B5;
+}
+
+.panel-m.wisteria .panel-m-head, .panel-m.wisteria .panel-m-body {
+  border-color: #8646A7;
+}
+
+.panel-m.midnight .panel-m-head {
+  background-color: #384A60;
+}
+
+.panel-m.midnight .panel-m-head:before,
+.panel-m.midnight .panel-m-body {
+  background-color: #455469;
+}
+
+.panel-m.midnight .panel-m-head, .panel-m.midnight .panel-m-body {
+  border-color: #324252;
+}
