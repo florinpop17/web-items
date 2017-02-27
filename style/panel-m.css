@@ -16,22 +16,6 @@
   font-size: 18px;
 }
 
-.panel-m .panel-m-head:before {
-  background-color: #333;
-  border-bottom-right-radius: 80%;
-  content: '';
-  display: block;
-  position: absolute;
-  top: -5px;
-  left: 0;
-  height: 100%;
-  width: 100%;
-}
-
-.panel-m .panel-m-head span {
-  position: relative;
-}
-
 .panel-m .panel-m-body {
   background-color: #999;
   border: 5px solid #333;
@@ -44,7 +28,6 @@
   background-color: #EBC316;
 }
 
-.panel-m.sun-flower .panel-m-head:before,
 .panel-m.sun-flower .panel-m-body {
   background-color: #EACB4D;
 }
@@ -57,7 +40,6 @@
   background-color: #DB7B24;
 }
 
-.panel-m.pumpkin .panel-m-head:before,
 .panel-m.pumpkin .panel-m-body {
   background-color: #E38B41;
 }
@@ -70,7 +52,6 @@
   background-color: #DE4C3D;
 }
 
-.panel-m.pomegrenate .panel-m-head:before,
 .panel-m.pomegrenate .panel-m-body {
   background-color: #E15F51;
 }
@@ -83,7 +64,6 @@
   background-color: #3A92D1;
 }
 
-.panel-m.belize .panel-m-head:before,
 .panel-m.belize .panel-m-body {
   background-color: #4BA1DC;
 }
@@ -96,7 +76,6 @@
   background-color: #31C36E;
 }
 
-.panel-m.emerald .panel-m-head:before,
 .panel-m.emerald .panel-m-body {
   background-color: #46CD7E;
 }
@@ -109,7 +88,6 @@
   background-color: #9556A7;
 }
 
-.panel-m.wisteria .panel-m-head:before,
 .panel-m.wisteria .panel-m-body {
   background-color: #A369B5;
 }
@@ -122,7 +100,6 @@
   background-color: #384A60;
 }
 
-.panel-m.midnight .panel-m-head:before,
 .panel-m.midnight .panel-m-body {
   background-color: #455469;
 }
