@@ -9,6 +9,7 @@
 
 .btn-m:hover {
     box-shadow: 3px 3px 15px rgba(100, 100, 100, 0.5);
+    transform: scale(1.05);
 }
 
 .btn-m:before {
