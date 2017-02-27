@@ -67,4 +67,26 @@ header h1{
 .container h3 {
     font-size: 24px;
     font-weight: 100;
+    margin-bottom: 20px;
+}
+
+
+/* Footer style */
+footer {
+    background-color: #0b0e21;
+    bottom: 0;
+    color: white;
+    font-size: 14px;
+    left: 0;
+    padding: 20px;
+    position: fixed;
+    right: 0;
+    text-align: center;
+}
+footer span {
+    color: #e74c3c;
+}
+footer a {
+    color: #2980b9;
+    text-decoration: none;
 }
