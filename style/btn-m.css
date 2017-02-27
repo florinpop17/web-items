@@ -1,0 +1,85 @@
+.btn-m {
+  color: white;
+  font-size: 16px;
+  padding: 10px;
+  position: relative;
+  overflow: hidden;
+  width: 150px;
+}
+
+.btn-m:before {
+  content: '';
+  width: 100%;
+  height: calc(100% - 5px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-bottom-right-radius: 80%;
+}
+
+.btn-m span{
+  position: relative;
+}
+
+.btn-m.midnight {
+  background: #384A60;
+  border: 5px solid #324252;
+}
+
+.btn-m.midnight:before {
+  background: #455469;
+}
+
+.btn-m.pumpkin {
+  background: #DB7B24;
+  border: 5px solid #C65614;
+}
+
+.btn-m.pumpkin:before {
+  background: #E38B41;
+}
+
+.btn-m.pomegrenate {
+  background: #DE4C3D;
+  border: 5px solid #B43B32;
+}
+
+.btn-m.pomegrenate:before {
+  background: #E15F51;
+}
+
+.btn-m.belize {
+  background: #3A92D1;
+  border: 5px solid #2A7CAC;
+}
+
+.btn-m.belize:before {
+  background: #4BA1DC;
+}
+
+.btn-m.emerald {
+  background: #31C36E;
+  border: 5px solid #2AA562;
+}
+
+.btn-m.emerald:before {
+  background: #46CD7E;
+}
+
+.btn-m.sun-flower {
+  background: #EBC316;
+  border: 5px solid #DB9221;
+}
+
+.btn-m.sun-flower:before {
+  background: #EACB4D;
+}
+
+.btn-m.wisteria {
+  background: #9556A7;
+  border: 5px solid #8646A7;
+}
+
+.btn-m.wisteria:before {
+  background: #A369B5;
+}
